@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        .mt{
+            margin-top: 3rem;
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+        .container{
+            max-width: 800px;
+        }
+        .noborder{
+            border-top:3px solid rgb(196, 19, 19); 
+            border-left: 0px; 
+            border-right: 0px; 
+            border-bottom: 0px;  
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            width: 800px;
+        }
+
+        dialog::backdrop{
+            background-color: rgba(0, 0, 0, 0.219);
+        }
+
+        dialog {
+  position: absolute;
+  left: 0; right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  color: black;
+  display: block;
+}
+
+    </style>
+</head>
+<body>
+    <div class=" flex mt container">
+      <canvas id="canvas">
+
+        
+      </canvas>
+        
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
